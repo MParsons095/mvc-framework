@@ -1,0 +1,5 @@
+black - 2a2e32
+dark-grey - 3f4448
+light - e3e3e3
+blue - 3e769a
+orange - c16622

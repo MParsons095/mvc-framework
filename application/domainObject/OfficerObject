@@ -1,0 +1,51 @@
+<?php namespace Application\DomainObject;
+
+use \System\Core\DomainObjectAbstract;
+
+class OfficerObject extends DomainObjectAbstract
+{
+	private $accountUid;
+	private $position;
+	private $role;
+	private $listPosition;
+
+	public function getAccountUid()
+	{
+		return $this->accountUid;
+	}
+
+	public function getPosition()
+	{
+		return $this->position;
+	}
+
+	public function getRole()
+	{
+		return $this->role;
+	}
+
+	public function getListPosition()
+	{
+		return $this->listPosition;
+	}
+
+	public function setAccountUid($uid)
+	{
+		$this->accountUid = $uid;
+	}
+
+	public function setPosition($position)
+	{
+		$this->position = $position;
+	}
+
+	public function setRole($role)
+	{
+		$this->role = $role;
+	}
+
+	public function setListPosition($pos)
+	{
+		$this->listPosition = $pos;
+	}
+}

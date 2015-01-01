@@ -1,0 +1,1 @@
+<h1>Internal Error: <?php print $error ?></h1>

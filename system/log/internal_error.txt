@@ -1,0 +1,7 @@
+06/29/14 at 3:13:35
+Message: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dolenms_tsa.tsa_officer' doesn't exist
+Code: 42S02
+File: C:\wamp\www\tsa\system\core\PDOAdapter.php
+Line: 100
+
+
